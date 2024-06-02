@@ -27,15 +27,15 @@ function App() {
           cards.map((filter, index) => {
             return (
               <Card
-              key={index}                 
-              name={filter.title}
-              image={filter.image}
-              link={filter.link}
-              category={filter.category}
+                key={index}
+                name={filter.title}
+                image={filter.image}
+                link={filter.link}
+                category={filter.category}
               />
-            ) })
+            )
+          })
         }
-
 
       </section>
     </main>
