@@ -2,7 +2,7 @@
 
 Tutorial de como fazer o deployment do **TechForge** localmente.
 
-## Requesitos
+## Requisitos
 
 - Node.js version 18.0 or above (which can be checked by running node -v). Você pode usar o nvm para gerenciar múltiplas versões do Node em uma única máquina.
 
@@ -18,13 +18,13 @@ Clone o repositorio do projeto na sua pasta de preferência
 ```
 
 #### Acessando o repositorio e baixando as dependências
-Acesse o repositorio do projeto e instale todos os pacotes necessários para o funcionamento da aplicação.
+Acesse o repositório do projeto e instale todos os pacotes necessários para o funcionamento da aplicação.
 ```
 cd /EquipeAgilGreen/techforge/src/
 
 npm install --save
 ```
-#### Iciando a aplicação
+#### Iniciando a aplicação
 Inicie a aplicação localmente utilizando o npm script
 
 ```

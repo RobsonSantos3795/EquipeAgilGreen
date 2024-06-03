@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'TechForge',
-  tagline: 'Todas as ferramentas em um único lugar',
+  tagline: 'Navegue pela variedade de opções e encontre as ferramentas ideais para impulsionar seu projeto.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,7 +77,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentação',
           items: [
             {
               label: 'Tutorial',
@@ -86,33 +86,45 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Desenvolvedores',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Beatriz Andrade Siquara',
+              href: 'https://www.linkedin.com/in/beatriz-siquara/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Breno Pimentel de Almeida Miranda',
+              href: 'https://www.linkedin.com/in/breno-pimentel-417369214/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Luan Gabriel Santos Paim Dias',
+              href: 'https://www.linkedin.com/in/luandiaspaim',
             },
+            {
+              label: 'Pablo Santana dos Santos',
+              href: '#',
+            },
+            {
+              label: 'Robson Santos de Jesus',
+              href: 'https://www.linkedin.com/in/robson-graça-dos-santos-a28254234/',
+            },
+            {
+              label: 'Yana Barreto Luiz Simina',
+              href: 'https://www.linkedin.com/in/yanabarreto/',
+            }
           ],
         },
         {
-          title: 'More',
+          title: 'Professor Orientador',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/RobsonSantos3795/EquipeAgilGreen.git',
+              label: 'Felipe Oliveira dos Santos',
+              href: '#',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Por TechForge.`,
     },
     prism: {
       theme: prismThemes.github,
