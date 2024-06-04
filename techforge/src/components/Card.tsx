@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface CardProps {
   name: string,
   category: string,

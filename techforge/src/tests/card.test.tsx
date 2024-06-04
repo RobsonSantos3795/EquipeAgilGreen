@@ -1,62 +1,52 @@
-/**
- * @jest-environment jsdom
- */ 
-
-/* eslint-disable no-undef */
+// Card.test.tsx
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Card from '../components/Card';
+import '@testing-library/jest-dom/extend-expect';
+import { Card } from '../components/Card'; // Assumindo que o componente Card está no mesmo diretório
 
-test('renders the Card component with the correct name', () => {
-  const props = {
+describe('Card Component', () => {
+  const defaultProps = {
     name: 'Test Name',
     category: 'Test Category',
-    link: 'http://example.com',
-    image: 'http://example.com/image.jpg'
+    link: 'https://example.com',
+    image: 'https://via.placeholder.com/150',
   };
 
-  render(<Card {...props} />);
+  test('renders the Card component with the given props', () => {
+    render(<Card {...defaultProps} />);
 
-  // Verifica se o nome está sendo renderizado corretamente
-  const nameElement = screen.getByText('Test Name');
-  expect(nameElement).toBeTruthy();
-});
+    // Verifica se a imagem está renderizada corretamente
+    const imgElement = screen.getByAltText('Logo');
+    expect(imgElement).toHaveAttribute('src', defaultProps.image);
 
-test('renders the Card component with the correct category', () => {
-  const props = {
-    name: 'Test Name',
-    category: 'Test Category',
-    link: 'http://example.com',
-    image: 'http://example.com/image.jpg'
-  };
+    // Verifica se o nome está renderizado corretamente
+    const nameElement = screen.getByText(defaultProps.name);
+    expect(nameElement).toBeInTheDocument();
 
-  render(<Card {...props} />);
+    // Verifica se a categoria está renderizada corretamente
+    const categoryElement = screen.getByText(defaultProps.category);
+    expect(categoryElement).toBeInTheDocument();
 
-  // Verifica se a categoria está sendo renderizada corretamente
-  const categoryElement = screen.getByText('Test Category');
-  expect(categoryElement).toBeTruthy();
-});
+    // Verifica se o link está renderizado corretamente
+    const linkElement = screen.getByText('Saiba Mais');
+    expect(linkElement).toBeInTheDocument();
+    expect(linkElement).toHaveAttribute('href', defaultProps.link);
+    expect(linkElement).toHaveAttribute('target', '_blank');
+  });
 
-test('renders the Card component with the correct image', () => {
-  const props = {
-    name: 'Test Name',
-    category: 'Test Category',
-    link: 'http://example.com',
-    image: 'http://example.com/image.jpg'
-  };
+  test('renders the Card component with additional props', () => {
+    const additionalProps = {
+      additionalInfo: 'Additional Info',
+    };
+    const combinedProps = { ...defaultProps, ...additionalProps };
 
-  render(<Card {...props} />);
+    render(<Card {...combinedProps} />);
 
-});
-
-test('renders the Card component with the correct link', () => {
-  const props = {
-    name: 'Test Name',
-    category: 'Test Category',
-    link: 'http://example.com',
-    image: 'http://example.com/image.jpg'
-  };
-
-  render(<Card {...props} />);
+    // Verifica se a informação adicional está renderizada corretamente
+    const additionalInfoElement = screen.getByText(additionalProps.additionalInfo);
+    expect(additionalInfoElement).toBeInTheDocument();
+  });
+  
 
 });
+

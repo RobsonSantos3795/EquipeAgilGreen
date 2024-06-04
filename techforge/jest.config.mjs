@@ -3,6 +3,7 @@
  * https://jestjs.io/docs/configuration
  */
 
+
 /** @type {import('jest').Config} */
 const config = {
     // All imported modules in your tests should be mocked automatically
@@ -193,6 +194,19 @@ const config = {
   
     // Whether to use watchman for file crawling
     // watchman: true,
+
+    preset: 'ts-jest',
+    testEnvironment: 'jsdom',
+    moduleNameMapper: {
+      '\\.(css|less|scss|sss|styl)$': 'identity-obj-proxy',
+    },
+    transform: {
+      '^.+\\.(ts|tsx)$': 'babel-jest',
+    },
+    setupFilesAfterEnv: [
+      '@testing-library/jest-dom/extend-expect'
+    ],
+  
   };
   
   export default config;
