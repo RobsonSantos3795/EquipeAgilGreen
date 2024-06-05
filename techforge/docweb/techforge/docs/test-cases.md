@@ -1,4 +1,3 @@
-
 # Casos de teste
 
 Analisaremos passo a passo do código que está escrito em JavaScript, usando React e a biblioteca de testes @testing-library/react, onde verifica se os cards são renderizados corretamente na aplicação.
@@ -77,7 +76,7 @@ test('renders all cards', () => {
 });
 
 ```
-1. render(<App/>): Renderiza o componente 'App' para teste.
+1. "render(App)": Renderiza o componente 'App' para teste.
 
 2. screen.getAllByTestld('card'): Obtém todos os elementos que tem o atributo 'data-testid = "card"'.
 
@@ -154,7 +153,7 @@ describe('Card Component', () => {
 ```
 
 1. test: Define um teste que verifica se o componente Card é renderizado corretamente com as propriedades fornecidas.
-2. render(<Card {...defaultProps} />): Renderiza o componente Card com as propriedades padrão.
+2. render(Card {"...defaultProps"}): Renderiza o componente Card com as propriedades padrão.
 3. screen.getByAltText('Logo'): Obtém o elemento de imagem pelo texto alternativo 'Logo'.
 4. expect(imgElement).toHaveAttribute('src', defaultProps.image): Verifica se a imagem tem o atributo src igual ao valor esperado.
 5. screen.getByText(defaultProps.name): Obtém o elemento que contém o nome fornecido.
@@ -186,7 +185,7 @@ expect(linkElement).toHaveAttribute('href', defaultProps.link): Verifica se o li
 
 1. additionalProps: Define propriedades adicionais que serão passadas para o componente.
 2. combinedProps: Combina as propriedades padrão com as propriedades adicionais.
-3. render(<Card {...combinedProps} />): Renderiza o componente Card com as propriedades combinadas.
+3. render(): Renderiza o componente Card com as propriedades combinadas.
 4. screen.getByText(additionalProps.additionalInfo): Obtém o elemento que contém a informação adicional.
 5. expect(additionalInfoElement).toBeInTheDocument(): Verifica se a informação adicional está presente no documento.
 
