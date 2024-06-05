@@ -174,7 +174,8 @@ export const cards = [
     category: "Análise de Código",
     image: "https://i.postimg.cc/yxBnzk2n/Re-Sharper.png",
     link: "https://www.jetbrains.com/resharper"
-}
+},
+
 
 ]
 

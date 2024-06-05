@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717462146204" clover="3.2.0">
-  <project timestamp="1717462146204" name="All files">
-    <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="2" coveredelements="2" complexity="0" loc="1" ncloc="1" packages="1" files="1" classes="1"/>
-    <file name="Card.tsx" path="C:\Users\Breno\Downloads\EquipeAgilGreen\techforge\src\components\Card.tsx">
+<coverage generated="1717545267371" clover="3.2.0">
+  <project timestamp="1717545267371" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="3" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="App.tsx" path="C:\Users\Breno\Downloads\EquipeAgilGreen\techforge\src\App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="28" count="25" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="12" count="3" type="stmt"/>
-    </file>
+      <file name="Card.tsx" path="C:\Users\Breno\Downloads\EquipeAgilGreen\techforge\src\components\Card.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils.data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="cards.tsx" path="C:\Users\Breno\Downloads\EquipeAgilGreen\techforge\src\utils\data\cards.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
