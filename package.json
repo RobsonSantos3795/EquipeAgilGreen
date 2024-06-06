@@ -1,0 +1,17 @@
+{
+  "name": "equipeagilgreen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:vite start:js",
+    "start:vite": "cd TechForgeSite && npm run dev",
+    "start:js": "cd docweb && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
