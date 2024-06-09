@@ -1,5 +1,5 @@
 # TechForge
-TechForge é uma plataforma web abrangente e intuitiva, destinada a simplificar, organizar e evidenciar as ferramentas de gerenciamento de software. Além de possuir uma interface amigável ao usuário e recursos de filtros e pesquisa que oferece breve informações sobre cada aplicativo.
+TechForge é uma plataforma web abrangente e intuitiva, destinada a simplificar, organizar e evidenciar as ferramentas de gerenciamento de software. Possui uma interface amigável ao usuário com recursos de filtros e pesquisa que oferece breve informações sobre cada aplicativo de software.
 
 É uma solução inovadora e eficaz para a organização e seleção de ferramentas de gerenciamento de software. O projeto foi guiado pela necessidade crescente de centralizar informações e facilitar a tomada de decisão para profissionais e empresas que buscam as melhores ferramentas para suas necessidades específicas.
 
