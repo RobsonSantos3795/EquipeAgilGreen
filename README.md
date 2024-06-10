@@ -30,16 +30,24 @@ TechForge é uma plataforma web abrangente e intuitiva, destinada a simplificar,
 
 2. **Instale as dependências:**
    ```bash
+   cd /EquipeAgilGreen /docweb
+   npm install 
+   ```
+      ```bash
+   cd /EquipeAgilGreen /TechForgeSite
+   npm install 
+   ```
+   ```bash
    cd /EquipeAgilGreen
    npm install 
    ```
 
-3. **Execute a aplicação:**
+4. **Execute a aplicação no diretório /EquipeAgilGreen:**
    ```bash
    npm run start
    ```
 
-4. **Acesse no navegador:**
+5. **Acesse no navegador:**
    ```
    WebSite:
    http://localhost:5173
