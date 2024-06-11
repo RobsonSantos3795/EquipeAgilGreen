@@ -1,5 +1,4 @@
 // Card.test.tsx
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { Card } from '../components/Card'; // Assumindo que o componente Card está no mesmo diretório
