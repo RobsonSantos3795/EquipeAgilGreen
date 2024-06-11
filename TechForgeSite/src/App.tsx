@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className="searchbar">
           <input type="search" name="" id="" />
-          <span>icone</span>
+          <span><img src="TechForgeSite\public\searchh.svg" alt="" /></span>
         </div>
       </section>
       <section className="sectionCard">
