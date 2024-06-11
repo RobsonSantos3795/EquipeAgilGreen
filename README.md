@@ -7,6 +7,13 @@ TechForge é uma plataforma web abrangente e intuitiva, destinada a simplificar,
 
 [![My Skills](https://skillicons.dev/icons?i=git,github,ts,js,react,jest,css,npm,vscode,figma,notion,babel)](https://github.com/RobsonSantos3795/EquipeAgilGreen)
 
+## 🔗 **Link Úteis:**  
+- 🌐 WebSite: [Clique Aqui](https://equipe-agil-green.vercel.app/)
+- 📚 DocWeb: [Clique Aqui](https://robsonsantos3795.github.io/EquipeAgilGreen/)
+- 📚 DocPdf: [Clique Aqui](https://docs.google.com/document/d/1yFOcYX8PpYGMscRmjSccsQCUCBtxsFBy/edit?usp=sharing&ouid=108200205697403799755&rtpof=true&sd=true)
+- 🖥️ Repositório: [Clique Aqui](https://github.com/RobsonSantos3795/EquipeAgilGreen)
+- 🌟 Figma: [Clique Aqui](https://www.figma.com/design/RGgzLHXPo401ZYKiRkCPcv/Untitled?node-id=0-1&t=k4NF9xx8AQSCuA5E-1)
+
 
 ## 📂 Estrutura do Projeto
 
