@@ -13,7 +13,7 @@ TechForge é uma plataforma web abrangente e intuitiva, destinada a simplificar,
 - 📚 DocPdf: [Clique Aqui](https://docs.google.com/document/d/1yFOcYX8PpYGMscRmjSccsQCUCBtxsFBy/edit?usp=sharing&ouid=108200205697403799755&rtpof=true&sd=true)
 - 🖥️ Repositório: [Clique Aqui](https://github.com/RobsonSantos3795/EquipeAgilGreen)
 - 🌟 Figma: [Clique Aqui](https://www.figma.com/design/RGgzLHXPo401ZYKiRkCPcv/Untitled?node-id=0-1&t=k4NF9xx8AQSCuA5E-1)
-
+- 📚 Notion: [Clique Aqui](https://www.notion.so/Modelos-M-todos-de-Engenharia-de-Software-665ad45cb422412787d8b8b82c3bb2d3?pvs=4)
 
 ## 📂 Estrutura do Projeto
 
